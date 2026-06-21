@@ -1,0 +1,12 @@
+
+{ 
+    crc :  3753998159880599194  , 
+    ccp_crc :  0  , 
+    cmdline : " --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip -L xpm --snapshot J_Cou_wrapper_behav xil_defaultlib.J_Cou_wrapper" , 
+    buildDate : "May 22 2025" , 
+    buildTime : "00:13:55" , 
+    linkCmd : "C:\\Xilinx\\2025.1\\Vivado\\data\\..\\tps\\mingw\\6.2.0\\win64.o\\nt\\bin\\gcc.exe -Wa,-W  -O -Wl,--stack,104857600 -o \"xsim.dir/J_Cou_wrapper_behav/xsimk.exe\"   \"xsim.dir/J_Cou_wrapper_behav/obj/xsim_0.win64.obj\" \"xsim.dir/J_Cou_wrapper_behav/obj/xsim_1.win64.obj\" -L\"C:\\Xilinx\\2025.1\\Vivado\\lib\\win64.o\" -lxv_simulator_kernel   -lxv_simbridge_kernel" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

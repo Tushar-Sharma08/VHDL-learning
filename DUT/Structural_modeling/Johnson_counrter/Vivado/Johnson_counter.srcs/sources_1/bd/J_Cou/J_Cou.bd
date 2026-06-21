@@ -1,0 +1,339 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x568568AFF1482AAC",
+      "device": "xc7a35tcpg236-1",
+      "gen_directory": "../../../../Johnson_counter.gen/sources_1/bd/J_Cou",
+      "name": "J_Cou",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2025.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "dff_0": "",
+      "dff_1": "",
+      "dff_2": "",
+      "dff_3": ""
+    },
+    "ports": {
+      "rst": {
+        "type": "rst",
+        "direction": "I",
+        "parameters": {
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "POLARITY": {
+            "value": "ACTIVE_HIGH"
+          }
+        }
+      },
+      "CLk": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "ASSOCIATED_RESET": {
+            "value": "rst",
+            "value_src": "default"
+          },
+          "CLK_DOMAIN": {
+            "value": "J_Cou_CLk",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "100000000"
+          },
+          "FREQ_TOLERANCE_HZ": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.0",
+            "value_src": "default"
+          }
+        }
+      },
+      "q0": {
+        "direction": "O"
+      },
+      "q1": {
+        "direction": "O"
+      },
+      "q2": {
+        "direction": "O"
+      },
+      "q3": {
+        "direction": "O"
+      }
+    },
+    "components": {
+      "dff_0": {
+        "vlnv": "xilinx.com:module_ref:dff:1.0",
+        "ip_revision": "1",
+        "xci_name": "J_Cou_dff_0_0",
+        "xci_path": "ip\\J_Cou_dff_0_0\\J_Cou_dff_0_0.xci",
+        "inst_hier_path": "dff_0",
+        "has_run_ip_tcl": "true",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "dff",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "rst",
+                "value_src": "constant"
+              },
+              "FREQ_HZ": {
+                "value": "100000000",
+                "value_src": "user_prop"
+              },
+              "CLK_DOMAIN": {
+                "value": "J_Cou_CLk",
+                "value_src": "default_prop"
+              }
+            }
+          },
+          "rst": {
+            "type": "rst",
+            "direction": "I",
+            "parameters": {
+              "POLARITY": {
+                "value": "ACTIVE_HIGH",
+                "value_src": "user_prop"
+              }
+            }
+          },
+          "din": {
+            "direction": "I"
+          },
+          "dn": {
+            "direction": "O"
+          },
+          "dout": {
+            "direction": "O"
+          }
+        }
+      },
+      "dff_1": {
+        "vlnv": "xilinx.com:module_ref:dff:1.0",
+        "ip_revision": "1",
+        "xci_name": "J_Cou_dff_0_1",
+        "xci_path": "ip\\J_Cou_dff_0_1\\J_Cou_dff_0_1.xci",
+        "inst_hier_path": "dff_1",
+        "has_run_ip_tcl": "true",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "dff",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "rst",
+                "value_src": "constant"
+              },
+              "FREQ_HZ": {
+                "value": "100000000",
+                "value_src": "user_prop"
+              },
+              "CLK_DOMAIN": {
+                "value": "J_Cou_CLk",
+                "value_src": "default_prop"
+              }
+            }
+          },
+          "rst": {
+            "type": "rst",
+            "direction": "I",
+            "parameters": {
+              "POLARITY": {
+                "value": "ACTIVE_HIGH",
+                "value_src": "user_prop"
+              }
+            }
+          },
+          "din": {
+            "direction": "I"
+          },
+          "dn": {
+            "direction": "O"
+          },
+          "dout": {
+            "direction": "O"
+          }
+        }
+      },
+      "dff_2": {
+        "vlnv": "xilinx.com:module_ref:dff:1.0",
+        "ip_revision": "1",
+        "xci_name": "J_Cou_dff_0_2",
+        "xci_path": "ip\\J_Cou_dff_0_2\\J_Cou_dff_0_2.xci",
+        "inst_hier_path": "dff_2",
+        "has_run_ip_tcl": "true",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "dff",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "rst",
+                "value_src": "constant"
+              },
+              "FREQ_HZ": {
+                "value": "100000000",
+                "value_src": "user_prop"
+              },
+              "CLK_DOMAIN": {
+                "value": "J_Cou_CLk",
+                "value_src": "default_prop"
+              }
+            }
+          },
+          "rst": {
+            "type": "rst",
+            "direction": "I",
+            "parameters": {
+              "POLARITY": {
+                "value": "ACTIVE_HIGH",
+                "value_src": "user_prop"
+              }
+            }
+          },
+          "din": {
+            "direction": "I"
+          },
+          "dn": {
+            "direction": "O"
+          },
+          "dout": {
+            "direction": "O"
+          }
+        }
+      },
+      "dff_3": {
+        "vlnv": "xilinx.com:module_ref:dff:1.0",
+        "ip_revision": "1",
+        "xci_name": "J_Cou_dff_0_3",
+        "xci_path": "ip\\J_Cou_dff_0_3\\J_Cou_dff_0_3.xci",
+        "inst_hier_path": "dff_3",
+        "has_run_ip_tcl": "true",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "dff",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "rst",
+                "value_src": "constant"
+              },
+              "FREQ_HZ": {
+                "value": "100000000",
+                "value_src": "user_prop"
+              },
+              "CLK_DOMAIN": {
+                "value": "J_Cou_CLk",
+                "value_src": "default_prop"
+              }
+            }
+          },
+          "rst": {
+            "type": "rst",
+            "direction": "I",
+            "parameters": {
+              "POLARITY": {
+                "value": "ACTIVE_HIGH",
+                "value_src": "user_prop"
+              }
+            }
+          },
+          "din": {
+            "direction": "I"
+          },
+          "dn": {
+            "direction": "O"
+          },
+          "dout": {
+            "direction": "O"
+          }
+        }
+      }
+    },
+    "nets": {
+      "CLk_1": {
+        "ports": [
+          "CLk",
+          "dff_0/clk",
+          "dff_1/clk",
+          "dff_2/clk",
+          "dff_3/clk"
+        ]
+      },
+      "dff_0_dout": {
+        "ports": [
+          "dff_0/dout",
+          "dff_1/din",
+          "q0"
+        ]
+      },
+      "dff_1_dout": {
+        "ports": [
+          "dff_1/dout",
+          "dff_2/din",
+          "q1"
+        ]
+      },
+      "dff_2_dout": {
+        "ports": [
+          "dff_2/dout",
+          "dff_3/din",
+          "q2"
+        ]
+      },
+      "dff_3_dn": {
+        "ports": [
+          "dff_3/dn",
+          "dff_0/din"
+        ]
+      },
+      "dff_3_dout": {
+        "ports": [
+          "dff_3/dout",
+          "q3"
+        ]
+      },
+      "rst_1": {
+        "ports": [
+          "rst",
+          "dff_0/rst",
+          "dff_1/rst",
+          "dff_2/rst",
+          "dff_3/rst"
+        ]
+      }
+    }
+  }
+}

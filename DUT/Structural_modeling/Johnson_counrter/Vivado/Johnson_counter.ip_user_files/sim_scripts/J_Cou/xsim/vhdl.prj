@@ -1,0 +1,9 @@
+vhdl xil_defaultlib  \
+"../../../bd/J_Cou/ip/J_Cou_dff_0_0/sim/J_Cou_dff_0_0.vhd" \
+"../../../bd/J_Cou/ip/J_Cou_dff_0_1/sim/J_Cou_dff_0_1.vhd" \
+"../../../bd/J_Cou/ip/J_Cou_dff_0_2/sim/J_Cou_dff_0_2.vhd" \
+"../../../bd/J_Cou/ip/J_Cou_dff_0_3/sim/J_Cou_dff_0_3.vhd" \
+"../../../bd/J_Cou/sim/J_Cou.vhd" \
+
+# Do not sort compile order
+nosort

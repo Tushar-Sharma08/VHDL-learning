@@ -1,0 +1,290 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x493E6D29493E6D29",
+      "device": "xc7a35tcpg236-1",
+      "gen_directory": "../../../../Ripple_carry_adder.gen/sources_1/bd/design_1",
+      "name": "design_1",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2025.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "FA_0": "",
+      "FA_1": "",
+      "FA_2": "",
+      "FA_3": ""
+    },
+    "ports": {
+      "s4": {
+        "direction": "O"
+      },
+      "a3": {
+        "direction": "I"
+      },
+      "b3": {
+        "direction": "I"
+      },
+      "cout_0": {
+        "direction": "O"
+      },
+      "a2": {
+        "direction": "I"
+      },
+      "b2": {
+        "direction": "I"
+      },
+      "s2": {
+        "direction": "O"
+      },
+      "cin_0": {
+        "direction": "I"
+      },
+      "s0": {
+        "direction": "O"
+      },
+      "s1": {
+        "direction": "O"
+      },
+      "b1": {
+        "direction": "I"
+      },
+      "a1": {
+        "direction": "I"
+      },
+      "a0": {
+        "direction": "I"
+      },
+      "b0": {
+        "direction": "I"
+      }
+    },
+    "components": {
+      "FA_0": {
+        "vlnv": "xilinx.com:module_ref:FA:1.0",
+        "ip_revision": "1",
+        "xci_name": "design_1_FA_0_0",
+        "xci_path": "ip\\design_1_FA_0_0\\design_1_FA_0_0.xci",
+        "inst_hier_path": "FA_0",
+        "has_run_ip_tcl": "true",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "FA",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "a": {
+            "direction": "I"
+          },
+          "b": {
+            "direction": "I"
+          },
+          "cin": {
+            "direction": "I"
+          },
+          "s": {
+            "direction": "O"
+          },
+          "cout": {
+            "direction": "O"
+          }
+        }
+      },
+      "FA_1": {
+        "vlnv": "xilinx.com:module_ref:FA:1.0",
+        "ip_revision": "1",
+        "xci_name": "design_1_FA_0_1",
+        "xci_path": "ip\\design_1_FA_0_1\\design_1_FA_0_1.xci",
+        "inst_hier_path": "FA_1",
+        "has_run_ip_tcl": "true",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "FA",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "a": {
+            "direction": "I"
+          },
+          "b": {
+            "direction": "I"
+          },
+          "cin": {
+            "direction": "I"
+          },
+          "s": {
+            "direction": "O"
+          },
+          "cout": {
+            "direction": "O"
+          }
+        }
+      },
+      "FA_2": {
+        "vlnv": "xilinx.com:module_ref:FA:1.0",
+        "ip_revision": "1",
+        "xci_name": "design_1_FA_0_2",
+        "xci_path": "ip\\design_1_FA_0_2\\design_1_FA_0_2.xci",
+        "inst_hier_path": "FA_2",
+        "has_run_ip_tcl": "true",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "FA",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "a": {
+            "direction": "I"
+          },
+          "b": {
+            "direction": "I"
+          },
+          "cin": {
+            "direction": "I"
+          },
+          "s": {
+            "direction": "O"
+          },
+          "cout": {
+            "direction": "O"
+          }
+        }
+      },
+      "FA_3": {
+        "vlnv": "xilinx.com:module_ref:FA:1.0",
+        "ip_revision": "1",
+        "xci_name": "design_1_FA_0_3",
+        "xci_path": "ip\\design_1_FA_0_3\\design_1_FA_0_3.xci",
+        "inst_hier_path": "FA_3",
+        "has_run_ip_tcl": "true",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "FA",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "a": {
+            "direction": "I"
+          },
+          "b": {
+            "direction": "I"
+          },
+          "cin": {
+            "direction": "I"
+          },
+          "s": {
+            "direction": "O"
+          },
+          "cout": {
+            "direction": "O"
+          }
+        }
+      }
+    },
+    "nets": {
+      "FA_0_cout": {
+        "ports": [
+          "FA_0/cout",
+          "FA_1/cin"
+        ]
+      },
+      "FA_0_s": {
+        "ports": [
+          "FA_0/s",
+          "s0"
+        ]
+      },
+      "FA_1_cout": {
+        "ports": [
+          "FA_1/cout",
+          "FA_2/cin"
+        ]
+      },
+      "FA_1_s": {
+        "ports": [
+          "FA_1/s",
+          "s1"
+        ]
+      },
+      "FA_2_cout": {
+        "ports": [
+          "FA_2/cout",
+          "FA_3/cin"
+        ]
+      },
+      "FA_2_s": {
+        "ports": [
+          "FA_2/s",
+          "s2"
+        ]
+      },
+      "FA_3_cout": {
+        "ports": [
+          "FA_3/cout",
+          "cout_0"
+        ]
+      },
+      "FA_3_s": {
+        "ports": [
+          "FA_3/s",
+          "s4"
+        ]
+      },
+      "a_0_1": {
+        "ports": [
+          "a3",
+          "FA_3/a"
+        ]
+      },
+      "a_0_2": {
+        "ports": [
+          "a1",
+          "FA_1/a"
+        ]
+      },
+      "a_0_3": {
+        "ports": [
+          "a0",
+          "FA_0/a"
+        ]
+      },
+      "a_1_1": {
+        "ports": [
+          "a2",
+          "FA_2/a"
+        ]
+      },
+      "b_0_1": {
+        "ports": [
+          "b3",
+          "FA_3/b"
+        ]
+      },
+      "b_0_2": {
+        "ports": [
+          "b1",
+          "FA_1/b"
+        ]
+      },
+      "b_0_3": {
+        "ports": [
+          "b0",
+          "FA_0/b"
+        ]
+      },
+      "b_1_1": {
+        "ports": [
+          "b2",
+          "FA_2/b"
+        ]
+      },
+      "cin_0_1": {
+        "ports": [
+          "cin_0",
+          "FA_0/cin"
+        ]
+      }
+    }
+  }
+}

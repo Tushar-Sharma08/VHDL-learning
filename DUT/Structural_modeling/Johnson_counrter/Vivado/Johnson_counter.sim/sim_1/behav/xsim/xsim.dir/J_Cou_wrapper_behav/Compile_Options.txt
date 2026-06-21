@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" -L "xpm" --snapshot "J_Cou_wrapper_behav" "xil_defaultlib.J_Cou_wrapper" -log "elaborate.log" 

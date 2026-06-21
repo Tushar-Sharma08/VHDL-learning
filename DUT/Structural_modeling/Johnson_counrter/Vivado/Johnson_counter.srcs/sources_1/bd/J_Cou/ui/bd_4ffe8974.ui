@@ -1,0 +1,29 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.5",
+   "Default View_TopLeft":"-295,-61",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.8.0 2024-04-26 e1825d835c VDI=44 GEI=38 GUI=JA:21.0
+#  -string -flagsOSRD
+preplace port port-id_rst -pg 1 -lvl 0 -x -20 -y 90 -defaultsOSRD
+preplace port port-id_CLk -pg 1 -lvl 0 -x -20 -y 60 -defaultsOSRD
+preplace port port-id_q0 -pg 1 -lvl 3 -x 460 -y 100 -defaultsOSRD
+preplace port port-id_q1 -pg 1 -lvl 3 -x 460 -y 150 -defaultsOSRD
+preplace port port-id_q2 -pg 1 -lvl 3 -x 460 -y 190 -defaultsOSRD
+preplace port port-id_q3 -pg 1 -lvl 3 -x 460 -y 230 -defaultsOSRD
+preplace inst dff_0 -pg 1 -lvl 2 -x 320 -y 270 -defaultsOSRD
+preplace inst dff_1 -pg 1 -lvl 1 -x 120 -y 80 -defaultsOSRD
+preplace inst dff_2 -pg 1 -lvl 2 -x 320 -y 90 -defaultsOSRD
+preplace inst dff_3 -pg 1 -lvl 1 -x 120 -y 300 -defaultsOSRD
+preplace netloc dff_3_dn 1 1 1 N 290
+preplace netloc rst_1 1 0 2 20 160 230
+preplace netloc CLk_1 1 0 2 10 0 220
+preplace netloc dff_2_dout 1 0 3 30 190 NJ 190 410
+preplace netloc dff_1_dout 1 1 2 210 170 430J
+preplace netloc dff_0_dout 1 0 3 30 180 NJ 180 420
+preplace netloc dff_3_dout 1 1 2 210J 350 430J
+levelinfo -pg 1 -20 120 320 460
+pagesize -pg 1 -db -bbox -sgen -100 -10 530 380
+"
+}
+

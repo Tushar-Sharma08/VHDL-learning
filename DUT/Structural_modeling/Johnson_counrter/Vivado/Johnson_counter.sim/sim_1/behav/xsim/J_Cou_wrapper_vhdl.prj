@@ -1,0 +1,12 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Johnson_counter.srcs/sources_1/new/dff.vhd" \
+"../../../../Johnson_counter.ip_user_files/bd/J_Cou/ip/J_Cou_dff_0_0/sim/J_Cou_dff_0_0.vhd" \
+"../../../../Johnson_counter.ip_user_files/bd/J_Cou/ip/J_Cou_dff_0_1/sim/J_Cou_dff_0_1.vhd" \
+"../../../../Johnson_counter.ip_user_files/bd/J_Cou/ip/J_Cou_dff_0_2/sim/J_Cou_dff_0_2.vhd" \
+"../../../../Johnson_counter.ip_user_files/bd/J_Cou/ip/J_Cou_dff_0_3/sim/J_Cou_dff_0_3.vhd" \
+"../../../../Johnson_counter.ip_user_files/bd/J_Cou/sim/J_Cou.vhd" \
+"../../../../Johnson_counter.gen/sources_1/bd/J_Cou/hdl/J_Cou_wrapper.vhd" \
+
+# Do not sort compile order
+nosort
