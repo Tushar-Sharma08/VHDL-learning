@@ -1,0 +1,64 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x73F9C9B073F9C9B0",
+      "device": "xc7a35tcpg236-1",
+      "gen_directory": "../../../../AND_IP.gen/sources_1/bd/design_1",
+      "name": "design_1",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2025.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "and_8_bit_0": ""
+    },
+    "ports": {
+      "a": {
+        "direction": "I",
+        "left": "7",
+        "right": "0"
+      },
+      "b": {
+        "direction": "I",
+        "left": "7",
+        "right": "0"
+      },
+      "y": {
+        "direction": "O",
+        "left": "7",
+        "right": "0"
+      }
+    },
+    "components": {
+      "and_8_bit_0": {
+        "vlnv": "xilinx.com:user:and_8_bit:1.0",
+        "ip_revision": "2",
+        "xci_name": "design_1_and_8_bit_0_0",
+        "xci_path": "ip\\design_1_and_8_bit_0_0\\design_1_and_8_bit_0_0.xci",
+        "inst_hier_path": "and_8_bit_0",
+        "has_run_ip_tcl": "true"
+      }
+    },
+    "nets": {
+      "a_0_1": {
+        "ports": [
+          "a",
+          "and_8_bit_0/a"
+        ]
+      },
+      "and_8_bit_0_y": {
+        "ports": [
+          "and_8_bit_0/y",
+          "y"
+        ]
+      },
+      "b_0_1": {
+        "ports": [
+          "b",
+          "and_8_bit_0/b"
+        ]
+      }
+    }
+  }
+}
